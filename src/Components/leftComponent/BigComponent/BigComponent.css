@@ -1,0 +1,33 @@
+.big-container{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    background-color: #fbf8f4;
+    border-radius: 20px ;
+    width: 50%;
+    padding: 30px;
+}
+.big-divider{
+    background-color: #434443;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.big-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color: black;
+    font-size: 60px;
+}
+.big-p{
+    color: #979997;
+}
+
+.big-icon{
+    width: 35px;
+    height: 35px;
+}

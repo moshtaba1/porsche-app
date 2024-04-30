@@ -1,0 +1,41 @@
+.nav-container{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    width: max-content;
+    height: max-content;
+    gap: 3px;
+}
+
+.nav-button{
+    border-radius: 20px;
+    border: solid 0.5px white;
+    padding: 10px 40px;
+    transition: 200ms ease-in;
+
+}
+
+.nav-button:hover{
+    background-color: #ab99d4;
+    border: solid 0.5px black;
+
+
+}
+
+.nav-title{
+    color: white;
+
+}
+
+.nav-logo{
+    border-radius: 20px;
+    /* border: solid 0.5px white; */
+    padding: 10px 40px;
+    background-color: #ab99d4;
+    color: black;
+    transition: 500ms ease-in-out;
+}
+.nav-logo:hover{
+    color: white;
+}
